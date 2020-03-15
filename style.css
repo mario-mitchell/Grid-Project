@@ -1,7 +1,7 @@
 body {
     font-family: 'Raleway', sans-serif;
-    color: #555;
-    background: #333;
+    color: #FFC500;
+    background: #1C1C19;
     margin: 3em;
 }
 
@@ -12,9 +12,9 @@ body {
     grid-gap: 1em;
 } 
 
-.portfolio-title {
+.page-title{
     text-align: center;
-    color: #00C896;
+    color: #FFC500;
     grid-column: 1 / -1;
 }
 
@@ -22,13 +22,17 @@ img {
     max-width: 100%;
 }
 
-.portfolio-card {
+.Card {
     box-shadow: 0 0 1em rgba(0,0,0,.25);
     padding: 1em;
-    background: white;
+    background: #5c0000;
 }
 
-.portfolio-card-title {
+.title {
     font-size: 1.5rem;
     color: #000;
+}
+
+.title{
+    color: #FFC500;
 }
